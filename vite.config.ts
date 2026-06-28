@@ -217,7 +217,7 @@ export default defineConfig({
   envDir: path.resolve(import.meta.dirname),
   root: path.resolve(import.meta.dirname),
   build: {
-          rollupOptions: { input: path.resolve(import.meta.dirname, "client/index.html") },
+          rollupOptions: { input: path.resolve(import.meta.dirname, "index.html") },
     outDir: path.resolve(import.meta.dirname, "dist/public"),
     emptyOutDir: true,
   },
