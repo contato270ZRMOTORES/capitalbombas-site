@@ -12,7 +12,7 @@ export default function WhatsAppButton() {
   const [showTooltip, setShowTooltip] = useState(true);
   const [hideTooltip, setHideTooltip] = useState(false);
 
-  const whatsappLink = "https://wa.me/5561999544090?text=Olá%2C%20gostaria%20de%20falar%20com%20um%20especialista%20sobre%20manutenção%20de%20bombas";
+    const whatsappLink = "https://wa.me/5561999544090?text=Ol%C3%A1%2C%20vim%20pelo%20site%20capitalbombas.com.br%20e%20preciso%20de%20manuten%C3%A7%C3%A3o%20de%20bombas.%20Pode%20me%20ajudar%3F";
 
   // Auto-hide tooltip after 8 seconds
   useEffect(() => {
